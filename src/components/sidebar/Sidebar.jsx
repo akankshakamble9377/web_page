@@ -9,7 +9,7 @@ const sidebarLinks = [
 ];
 const Sidebar = () => {
     return (
-   <>
+   <div className='sidemaindiv'>
             <button className='d-lg-none' type='button' data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="true" aria-controls="navbarNav">
                 <span className='navbar-toggler-icon'></span>
             </button>
@@ -26,7 +26,7 @@ const Sidebar = () => {
                 </ul>
 
             </div>
-            </>
+            </div>
     )
 }
 

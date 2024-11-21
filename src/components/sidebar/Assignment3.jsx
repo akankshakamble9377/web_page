@@ -2,7 +2,7 @@ import React from 'react'
 
 const Assignment3 = () => {
   return (
-    <div>Assignment3</div>
+    <div className='main-assignDiv'>Assignment3</div>
   )
 }
 

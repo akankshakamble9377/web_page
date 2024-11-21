@@ -1,10 +1,9 @@
 .sidebarMain {
-  width: 250px;
+  width: 20%;
   background: #8728c0;
     height: 100vh;
-    /* position: fixed;
-    top: 0;
-    left: 0; */
+ position: fixed;
+
 
     /* position: fixed; */
   
@@ -25,23 +24,31 @@
   color: #fff;
 }  
 
-
+.sidemaindiv{
+  background-color: red;
+}
 
 @media (max-width: 768px) {
-  /* .sidebarMain {
-    display: none;
-  } */
+  .sidebarMain {
+    width: 100%;
+    position: unset;
+    
+  }
   .App{
     width:100%!important
   }
 }
 
+.main-assignDiv{
+  width: 80%;
+  float: right;
+}
 
 
 
 
 .App {
-  width: 40%;
+  width: 60%;
   box-shadow: 0px 0px 11px 3px #a89e9e;
   border: 1px solid #afa9a9;
   border-radius: 20px;

@@ -3,7 +3,7 @@ import Form from '../formComponents/Form'
 
 const Assignment1 = () => {
   return (
-    <div> 
+    <div className='main-assignDiv'> 
         <Form/>
     </div>
     
